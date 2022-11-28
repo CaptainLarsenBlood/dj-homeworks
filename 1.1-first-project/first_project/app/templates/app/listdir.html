@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список файлов</title>
+</head>
+<body>
+    <h1>Список файлов</h1>
+    {% y = 1 %}
+    {% for x in enumerate(dir) %}
+        <h2>{{x}}</h2>
+        <h3>{{y}}</h3>
+    {% y += 1 %}
+    {% endfor %}
+
+</body>
+</html>
