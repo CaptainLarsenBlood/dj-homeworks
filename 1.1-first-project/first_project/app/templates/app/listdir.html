@@ -6,11 +6,8 @@
 </head>
 <body>
     <h1>Список файлов</h1>
-    {% y = 1 %}
-    {% for x in enumerate(dir) %}
+    {% for x in dir %}
         <h2>{{x}}</h2>
-        <h3>{{y}}</h3>
-    {% y += 1 %}
     {% endfor %}
 
 </body>

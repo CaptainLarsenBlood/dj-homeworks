@@ -30,4 +30,4 @@ def time_view(request):
 
 def workdir_view(request):
     files = os.listdir(path='.')
-    return render(request, 'app/listdir.html', context={'dir': os.listdir(path='.')})
+    return render(request, 'app/listdir.html', context={'dir': [f"{x}. {y}" for x, y in enumerate(files, start=1)]})
