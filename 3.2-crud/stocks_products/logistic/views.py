@@ -1,7 +1,7 @@
 from rest_framework.viewsets import ModelViewSet
 
-from logistic.models import Product, Stock
-from logistic.serializers import ProductSerializer, StockSerializer
+from stocks_products.logistic.models import Product, Stock
+from stocks_products.logistic.serializers import ProductSerializer, StockSerializer
 
 
 class ProductViewSet(ModelViewSet):
