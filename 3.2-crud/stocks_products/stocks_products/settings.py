@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'stocks_products.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'crud',
+        'NAME': 'crud2',
         'USER': 'postgres',
         'PASSWORD': '123456',
     }
